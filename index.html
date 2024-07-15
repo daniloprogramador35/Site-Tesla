@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevClub - Tesla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="imagens/logo.png" alt="Logo da Tesla" class="logo">
+    <ul class="lista">
+        <li class="item">
+            <video src="imagens/model-y.mp4" muted autoplay loop></video>
+            <div class="info-carro">
+                <h1>Model Y</h1>
+                <p>Parcelas a partir de 499 dólares</p>
+            </div>
+            <div class="rodapé">
+                <button onclick="aparecerFormulario()">Comprar Agora</button>
+                <button class="teste-drive">Faça um Teste-Drive</button>
+                <p class="sub-titulo2">*Não garantimos seu veículo imediatamente, consultar estoque.</p>
+            </div>
+        </li>
+        <!--ITEM 2-->
+        <li class="item">
+            <img src="imagens/model-s.png" class="img-tesla" alt="modelo-s">
+            <div class="info-carro">
+                <h1>Model S</h1>
+                <p>Compre agora o seu Tesla</p>
+            </div>   
+        </li>
+        <!--ITEM 3-->
+        <li class="item">
+            <img src="imagens/model-x.png" class="img-tesla" alt="modelo-x">
+            <div class="info-carro">
+                <h1 class="titulo2">Model x</h1>
+                <p class="sub-titulo3">Promoção de final de ano, comemore seu natal com o novo Tesla.</p>
+            </div>
+        </li>
+    </ul>
+    <div class="formulario">
+        <button onclick="desaparecerFormulario()">Fechar</button>
+        <script type="text/javascript" src="https://form.jotform.com/jsform/241943889210058"></script>
+    </div>
+</body>
+    <script src="scripts.js"></script>
+</html>
